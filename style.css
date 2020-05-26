@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(15, 15, 15) !important;
+    color: whitesmoke; 
+}
+
+header
+{
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.imagen{
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+.imagen:hover{
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+
+.imagencaracteristicas{
+    filter: saturate(200%) !important;
+}
